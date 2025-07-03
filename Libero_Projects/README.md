@@ -1,5 +1,5 @@
 # Arrow Everest Board Mi-V Sample FPGA Designs
-This folder contains Tcl scripts that build Libero SoC v2024.2 design projects for the Arrow Everest Board. These scripts are executed in Libero SoC to generate the sample designs. All cores boot from memory at 0x8000_0000.
+This folder contains Tcl scripts that build Libero SoC v2025.1 design projects for the Arrow Everest Board. These scripts are executed in Libero SoC to generate the sample designs. All cores boot from memory at 0x8000_0000.
 
 #### PF_Everest_MIV_RV32_BaseDesign
 
@@ -58,6 +58,8 @@ In the examples above the arguments "CFG1" and "CFG1 SYNTHESIZE PS" were entered
 | ------------------------- |:---------------|
 | PS | Build a base design targeted for 'PS' die |
 | ES | Build a base design targeted for 'ES' die |
+
+Please note: Error messages will be generated if invalid arguments are applied.
 
 
 ## Design Features
